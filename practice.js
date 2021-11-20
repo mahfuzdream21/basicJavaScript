@@ -48,4 +48,28 @@ function pageRequirments(book1,book2,book3){
 }
 
 const totalPageRequird = pageRequirments(0,0,50);
-console.log(totalPageRequird);
+// console.log(totalPageRequird);
+
+
+
+
+const friends = ['manna', 'rakib', 'proshenjit','razzak'];
+
+let friendName = [0];
+
+for(const friend of friends){
+	// console.log(friend);
+	if(friendName.length < friend.length){
+		friendName = friend;
+	}
+	console.log(friendName);
+}
+
+
+
+// function bestFriend(friend){
+		
+// }
+
+// const callFunc = bestFriend(friend);
+// console.log(callFunc);
